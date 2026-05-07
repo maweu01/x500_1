@@ -1,0 +1,169 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beijing Capital International Airport",
+        "type": "airport",
+        "radius_km": 8,
+        "restriction": "NO_FLY",
+        "icao": "ZBAA",
+        "altitude_limit": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.5889, 40.0801]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shanghai Pudong International Airport",
+        "type": "airport",
+        "radius_km": 8,
+        "restriction": "NO_FLY",
+        "icao": "ZSPD",
+        "altitude_limit": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.8050, 31.1443]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shenzhen Bao'an International Airport",
+        "type": "airport",
+        "radius_km": 8,
+        "restriction": "NO_FLY",
+        "icao": "ZGSZ",
+        "altitude_limit": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.8145, 22.6393]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guangzhou Baiyun International Airport",
+        "type": "airport",
+        "radius_km": 8,
+        "restriction": "NO_FLY",
+        "icao": "ZGGG",
+        "altitude_limit": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.2990, 23.3924]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tiananmen Square Restricted Airspace",
+        "type": "restricted",
+        "restriction": "PROHIBITED",
+        "altitude_limit": 0,
+        "authority": "CAAC"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [116.3863, 39.9042],
+            [116.3963, 39.9042],
+            [116.3963, 39.8942],
+            [116.3863, 39.8942],
+            [116.3863, 39.9042]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chengdu Military Restricted Zone",
+        "type": "military",
+        "restriction": "RESTRICTED",
+        "altitude_limit": 500,
+        "authority": "PLA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [103.9, 30.7],
+            [104.2, 30.7],
+            [104.2, 30.5],
+            [103.9, 30.5],
+            [103.9, 30.7]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wuhan Tianhe International Airport",
+        "type": "airport",
+        "radius_km": 8,
+        "restriction": "NO_FLY",
+        "icao": "ZHHH",
+        "altitude_limit": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.2081, 30.7838]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chongqing Jiangbei International Airport",
+        "type": "airport",
+        "radius_km": 8,
+        "restriction": "NO_FLY",
+        "icao": "ZUCK",
+        "altitude_limit": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.6422, 29.7192]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xi'an Xianyang International Airport",
+        "type": "airport",
+        "radius_km": 8,
+        "restriction": "NO_FLY",
+        "icao": "ZLXY",
+        "altitude_limit": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [108.7516, 34.4471]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sanya Phoenix International Airport",
+        "type": "airport",
+        "radius_km": 5,
+        "restriction": "NO_FLY",
+        "icao": "ZJSY",
+        "altitude_limit": 0
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.4122, 18.3029]
+      }
+    }
+  ]
+}
